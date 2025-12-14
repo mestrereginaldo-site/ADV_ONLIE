@@ -1,286 +1,586 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" class="no-js">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dr. Reginaldo Oliveira | Especialista em Prática Penal Avançada</title>
+    <title>STRATEGIC DEFENSE | Dr. Reginaldo Oliveira • Prática Penal Avançada</title>
+    <meta name="description" content="Estratégia jurídica de alto nível para casos penais complexos. Defesa agressiva e inteligente.">
+    
+    <!-- OG Tags para redes sociais -->
+    <meta property="og:title" content="STRATEGIC DEFENSE | Dr. Reginaldo Oliveira">
+    <meta property="og:description" content="A última linha de defesa em casos penais complexos.">
+    <meta property="og:image" content="assets/og-image.jpg">
+    <meta property="og:type" content="website">
+    
+    <!-- Preload crítico -->
+    <link rel="preload" href="style.css" as="style">
+    <link rel="preload" href="script.js" as="script">
+    
+    <!-- Estilos -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    
+    <!-- Fontes Premium -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    
+    <!-- Scripts de Pré-carregamento -->
+    <script>
+        document.documentElement.classList.remove('no-js');
+        // Configurações iniciais
+        window.siteConfig = {
+            whatsappNumber: '5548999999999',
+            lawyerName: 'Dr. Reginaldo Oliveira',
+            oabNumber: 'OAB/SC 57.879'
+        };
+    </script>
 </head>
 <body>
-    <!-- Botão do WhatsApp Flutuante -->
-    <a href="https://wa.me/5548999999999?text=Olá%20Dr.%20Reginaldo,%20gostaria%20de%20agendar%20uma%20consulta." class="whatsapp-float" target="_blank" aria-label="Fale comigo no WhatsApp">
-        <i class="fab fa-whatsapp"></i>
-    </a>
-
-    <!-- Cabeçalho / Navegação -->
-    <header class="header">
-        <div class="container header-container">
-            <a href="#inicio" class="logo">
-                <!-- Substitua o texto pelo logo quando tiver -->
-                <img src="assets/logo-placeholder.png" alt="Logo Dr. Reginaldo Oliveira" id="logo-img">
+    <!-- Tela de Loading Cinematográfico -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-content">
+            <div class="loading-logo">
+                <div class="logo-mark">SD</div>
                 <div class="logo-text">
-                    <span class="logo-name">Dr. Reginaldo Oliveira</span>
-                    <span class="logo-oab">OAB/SC 57.879</span>
+                    <span class="logo-line-1">STRATEGIC</span>
+                    <span class="logo-line-2">DEFENSE</span>
                 </div>
+            </div>
+            <div class="loading-progress">
+                <div class="progress-bar"></div>
+                <div class="progress-text">CARREGANDO ESTRATÉGIAS...</div>
+            </div>
+            <div class="loading-quote">
+                <p>"A melhor defesa é uma estratégia ofensiva bem planejada"</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Background com Partículas -->
+    <div id="particles-js" class="particles-container"></div>
+
+    <!-- Cursor Personalizado -->
+    <div class="custom-cursor"></div>
+
+    <!-- Navegação Minimalista -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo" data-audio="click">
+                <span class="logo-symbol">§</span>
+                <span class="logo-text">STRATEGIC DEFENSE</span>
             </a>
-            <nav class="nav-menu">
-                <ul>
-                    <li><a href="#inicio">Início</a></li>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#servicos">Serviços</a></li>
-                    <li><a href="#processo">Como Atuo</a></li>
-                    <li><a href="#contato">Contato</a></li>
-                </ul>
-                <a href="#contato" class="btn btn-header">Fale com o Especialista</a>
-            </nav>
-            <button class="menu-toggle" aria-label="Abrir menu">
-                <i class="fas fa-bars"></i>
+            
+            <div class="nav-right">
+                <button class="nav-trigger" aria-label="Menu">
+                    <span class="trigger-line"></span>
+                    <span class="trigger-line"></span>
+                </button>
+                
+                <div class="nav-overlay">
+                    <div class="overlay-content">
+                        <div class="overlay-header">
+                            <div class="oab-badge">OAB/SC 57.879</div>
+                            <button class="close-overlay" aria-label="Fechar">×</button>
+                        </div>
+                        
+                        <ul class="overlay-menu">
+                            <li><a href="#strategies" data-text="ESTRATÉGIAS">ESTRATÉGIAS</a></li>
+                            <li><a href="#cases" data-text="CASOS">CASOS</a></li>
+                            <li><a href="#analysis" data-text="ANÁLISE">ANÁLISE</a></li>
+                            <li><a href="#resources" data-text="RECURSOS">RECURSOS</a></li>
+                            <li><a href="#contact" data-text="CONTATO">CONTATO</a></li>
+                        </ul>
+                        
+                        <div class="overlay-footer">
+                            <div class="emergency-cta">
+                                <i class="fas fa-shield-alt"></i>
+                                <span>URGÊNCIA PENAL?</span>
+                                <a href="tel:+5548999999999" class="emergency-link">(48) 99999-9999</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section Cinematográfica -->
+    <section id="hero" class="hero-section">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-label">
+                    <span class="label-line"></span>
+                    <span class="label-text">DEFESA PENAL DE ALTA COMPLEXIDADE</span>
+                </div>
+                
+                <h1 class="hero-title">
+                    <span class="title-line typing-text" data-text="QUANDO TUDO ESTÁ EM JOGO,"></span>
+                    <span class="title-line typing-text" data-text="A ESTRATÉGIA É TUDO." data-delay="1500"></span>
+                </h1>
+                
+                <div class="hero-subtitle">
+                    <p>Dr. Reginaldo Oliveira • Especialista em Prática Penal Avançada</p>
+                    <p>Estratégias jurídicas customizadas para cada fase processual</p>
+                </div>
+                
+                <div class="hero-actions">
+                    <a href="#analysis" class="btn btn-primary btn-holographic" data-audio="hover">
+                        <span class="btn-text">ANALISAR MEU CASO</span>
+                        <span class="btn-icon">→</span>
+                    </a>
+                    
+                    <a href="#cases" class="btn btn-secondary" data-audio="hover">
+                        <span class="btn-text">VER ESTRATÉGIAS</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <div class="stat-number" data-count="150">0</div>
+                    <div class="stat-label">CASOS COMPLEXOS</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-count="94">0</div>
+                    <div class="stat-label">% DE SUCESSO</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-count="12">0</div>
+                    <div class="stat-label">ANOS DE TRIBUNAL</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator">
+            <div class="indicator-line"></div>
+            <span class="indicator-text">EXPLORAR ESTRATÉGIAS</span>
+        </div>
+    </section>
+
+    <!-- Seção de Estratégias Interativas -->
+    <section id="strategies" class="strategies-section">
+        <div class="section-header">
+            <h2 class="section-title">
+                <span class="title-number">01</span>
+                <span class="title-text">METODOLOGIA DE DEFESA</span>
+            </h2>
+            <p class="section-subtitle">Processo estratégico em 4 fases</p>
+        </div>
+        
+        <div class="strategies-container">
+            <div class="strategy-track">
+                <div class="strategy-card" data-phase="1">
+                    <div class="card-header">
+                        <div class="phase-number">FASE 01</div>
+                        <div class="phase-icon">🔍</div>
+                    </div>
+                    <h3 class="card-title">ANÁLISE FORENSE</h3>
+                    <p class="card-description">Deconstrução minuciosa do caso, identificando vulnerabilidades processuais e oportunidades estratégicas.</p>
+                    <ul class="card-list">
+                        <li>Revisão de 360° do processo</li>
+                        <li>Identificação de nulidades</li>
+                        <li>Mapa de riscos e oportunidades</li>
+                    </ul>
+                    <div class="card-footer">
+                        <span class="time-estimate">48-72 HORAS</span>
+                    </div>
+                </div>
+                
+                <div class="strategy-card" data-phase="2">
+                    <div class="card-header">
+                        <div class="phase-number">FASE 02</div>
+                        <div class="phase-icon">⚡</div>
+                    </div>
+                    <h3 class="card-title">ESTRATÉGIA OFENSIVA</h3>
+                    <p class="card-description">Desenvolvimento de teses defensivas agressivas e planejamento de movimentos processuais.</p>
+                    <ul class="card-list">
+                        <li>Desenvolvimento de teses</li>
+                        <li>Plano de contingência</li>
+                        <li>Previsão de movimentos</li>
+                    </ul>
+                    <div class="card-footer">
+                        <span class="time-estimate">24-48 HORAS</span>
+                    </div>
+                </div>
+                
+                <div class="strategy-card" data-phase="3">
+                    <div class="card-header">
+                        <div class="phase-number">FASE 03</div>
+                        <div class="phase-icon">⚖️</div>
+                    </div>
+                    <h3 class="card-title">EXECUÇÃO TÁTICA</h3>
+                    <p class="card-description">Implementação da estratégia com peças jurídicas precisas e atuação em juízo.</p>
+                    <ul class="card-list">
+                        <li>Elaboração de peças</li>
+                        <li>Atuação em audiências</li>
+                        <li>Sustentação oral</li>
+                    </ul>
+                    <div class="card-footer">
+                        <span class="time-estimate">CONTÍNUO</span>
+                    </div>
+                </div>
+                
+                <div class="strategy-card" data-phase="4">
+                    <div class="card-header">
+                        <div class="phase-number">FASE 04</div>
+                        <div class="phase-icon">🎯</div>
+                    </div>
+                    <h3 class="card-title">CONTROLE DE DANOS</h3>
+                    <p class="card-description">Monitoramento pós-decisão e estratégias de redução de impacto.</p>
+                    <ul class="card-list">
+                        <li>Recursos estratégicos</li>
+                        <li>Negociação de penas</li>
+                        <li>Revisão criminal</li>
+                    </ul>
+                    <div class="card-footer">
+                        <span class="time-estimate">LONGO PRAZO</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sistema de Análise de Caso -->
+    <section id="analysis" class="analysis-section">
+        <div class="analysis-container">
+            <div class="analysis-header">
+                <h2 class="analysis-title">
+                    <span class="title-number">02</span>
+                    <span class="title-text">ANÁLISE PRÉVIA DE CASO</span>
+                </h2>
+                <p class="analysis-subtitle">Responda 3 questões para receber uma pré-análise estratégica</p>
+            </div>
+            
+            <form id="caseAnalyzer" class="analyzer-form">
+                <div class="analyzer-progress">
+                    <div class="progress-step active" data-step="1">
+                        <span class="step-number">1</span>
+                        <span class="step-label">FASE</span>
+                    </div>
+                    <div class="progress-step" data-step="2">
+                        <span class="step-number">2</span>
+                        <span class="step-label">GRAVIDADE</span>
+                    </div>
+                    <div class="progress-step" data-step="3">
+                        <span class="step-number">3</span>
+                        <span class="step-label">URGÊNCIA</span>
+                    </div>
+                </div>
+                
+                <div class="analyzer-steps">
+                    <!-- Step 1 -->
+                    <div class="analyzer-step active" data-step="1">
+                        <h3 class="step-question">Em qual fase processual seu caso se encontra?</h3>
+                        <div class="step-options">
+                            <label class="option-card">
+                                <input type="radio" name="phase" value="investigacao">
+                                <div class="option-content">
+                                    <span class="option-icon">🕵️</span>
+                                    <span class="option-text">INVESTIGAÇÃO PRELIMINAR</span>
+                                    <span class="option-desc">Antes da denúncia</span>
+                                </div>
+                            </label>
+                            
+                            <label class="option-card">
+                                <input type="radio" name="phase" value="instancia">
+                                <div class="option-content">
+                                    <span class="option-icon">⚖️</span>
+                                    <span class="option-text">1ª INSTÂNCIA</span>
+                                    <span class="option-desc">Processo em andamento</span>
+                                </div>
+                            </label>
+                            
+                            <label class="option-card">
+                                <input type="radio" name="phase" value="recursos">
+                                <div class="option-content">
+                                    <span class="option-icon">📚</span>
+                                    <span class="option-text">RECURSOS</span>
+                                    <span class="option-desc">Apelação ou revisão</span>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <!-- Step 2 -->
+                    <div class="analyzer-step" data-step="2">
+                        <h3 class="step-question">Qual o potencial de pena envolvido?</h3>
+                        <div class="step-options">
+                            <label class="option-card">
+                                <input type="radio" name="gravity" value="baixa">
+                                <div class="option-content">
+                                    <span class="option-icon">🟢</span>
+                                    <span class="option-text">ATÉ 4 ANOS</span>
+                                    <span class="option-desc">Crimes de menor potencial</span>
+                                </div>
+                            </label>
+                            
+                            <label class="option-card">
+                                <input type="radio" name="gravity" value="media">
+                                <div class="option-content">
+                                    <span class="option-icon">🟡</span>
+                                    <span class="option-text">4-8 ANOS</span>
+                                    <span class="option-desc">Crimes médios</span>
+                                </div>
+                            </label>
+                            
+                            <label class="option-card">
+                                <input type="radio" name="gravity" value="alta">
+                                <div class="option-content">
+                                    <span class="option-icon">🔴</span>
+                                    <span class="option-text">ACIMA DE 8 ANOS</span>
+                                    <span class="option-desc">Crimes graves/hediondos</span>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <!-- Step 3 -->
+                    <div class="analyzer-step" data-step="3">
+                        <h3 class="step-question">Qual o nível de urgência do caso?</h3>
+                        <div class="step-options">
+                            <label class="option-card">
+                                <input type="radio" name="urgency" value="baixa">
+                                <div class="option-content">
+                                    <span class="option-icon">📅</span>
+                                    <span class="option-text">ANÁLISE ESTRATÉGICA</span>
+                                    <span class="option-desc">Planejamento a médio prazo</span>
+                                </div>
+                            </label>
+                            
+                            <label class="option-card">
+                                <input type="radio" name="urgency" value="media">
+                                <div class="option-content">
+                                    <span class="option-icon">⚠️</span>
+                                    <span class="option-text">PRAZOS EM CURSO</span>
+                                    <span class="option-desc">Ações imediatas necessárias</span>
+                                </div>
+                            </label>
+                            
+                            <label class="option-card">
+                                <input type="radio" name="urgency" value="alta">
+                                <div class="option-content">
+                                    <span class="option-icon">🚨</span>
+                                    <span class="option-text">EMERGÊNCIA PENAL</span>
+                                    <span class="option-desc">Ação imediata requerida</span>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="analyzer-navigation">
+                    <button type="button" class="btn-nav btn-prev" disabled>
+                        <span>← VOLTAR</span>
+                    </button>
+                    <button type="button" class="btn-nav btn-next">
+                        <span>PRÓXIMA →</span>
+                    </button>
+                    <button type="submit" class="btn-submit">
+                        <span>RECEBER ANÁLISE</span>
+                        <span class="submit-icon">↗</span>
+                    </button>
+                </div>
+            </form>
+            
+            <div id="analysisResult" class="analysis-result">
+                <!-- Resultado será gerado via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline de Casos (Horizontal Scroll) -->
+    <section id="cases" class="cases-section">
+        <div class="cases-header">
+            <h2 class="section-title">
+                <span class="title-number">03</span>
+                <span class="title-text">CASOS ESTRATÉGICOS</span>
+            </h2>
+            <p class="section-subtitle">Movimentos processuais que redefiniram resultados</p>
+        </div>
+        
+        <div class="cases-timeline">
+            <div class="timeline-track">
+                <!-- Caso 1 -->
+                <div class="case-card">
+                    <div class="case-year">2023</div>
+                    <div class="case-content">
+                        <h3 class="case-title">HC 15.879/SC</h3>
+                        <p class="case-description">Concessão de Habeas Corpus com base em nulidade de interceptação telefônica.</p>
+                        <div class="case-strategy">
+                            <span class="strategy-tag">Estratégia:</span>
+                            <span class="strategy-text">ATAQUE À PROVA ILÍCITA</span>
+                        </div>
+                        <div class="case-result">
+                            <span class="result-icon">✓</span>
+                            <span class="result-text">LIBERDADE CONCEDIDA</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Caso 2 -->
+                <div class="case-card">
+                    <div class="case-year">2022</div>
+                    <div class="case-content">
+                        <h3 class="case-title">APELAÇÃO 7.432/PR</h3>
+                        <p class="case-description">Rebaixamento de qualificadora em recurso de apelação.</p>
+                        <div class="case-strategy">
+                            <span class="strategy-tag">Estratégia:</span>
+                            <span class="strategy-text">REDUÇÃO DE PENA-BASE</span>
+                        </div>
+                        <div class="case-result">
+                            <span class="result-icon">↷</span>
+                            <span class="result-text">PENA REDUZIDA 60%</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Caso 3 -->
+                <div class="case-card">
+                    <div class="case-year">2021</div>
+                    <div class="case-content">
+                        <h3 class="case-title">INQUÉRITO 4.589/RS</h3>
+                        <p class="case-description">Arquivamento em fase de inquérito policial.</p>
+                        <div class="case-strategy">
+                            <span class="strategy-tag">Estratégia:</span>
+                            <span class="strategy-text">DESCARACTERIZAÇÃO</span>
+                        </div>
+                        <div class="case-result">
+                            <span class="result-icon">✓</span>
+                            <span class="result-text">ARQUIVAMENTO</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="cases-controls">
+            <button class="case-control prev-case" aria-label="Caso anterior">
+                <span>←</span>
+            </button>
+            <button class="case-control next-case" aria-label="Próximo caso">
+                <span>→</span>
             </button>
         </div>
-    </header>
+    </section>
 
-    <main>
-        <!-- Seção Hero / Início -->
-        <section id="inicio" class="hero">
-            <div class="container hero-container">
-                <div class="hero-content">
-                    <h1 class="hero-title">Defesa Penal com <span class="highlight">Estratégia</span> e <span class="highlight">Excelência</span></h1>
-                    <p class="hero-subtitle">Atuação especializada em casos criminais complexos. Protegendo seus direitos com um planejamento jurídico robusto e dedicado.</p>
-                    <div class="hero-buttons">
-                        <a href="#contato" class="btn btn-primary">
-                            <i class="fas fa-calendar-check"></i> Agendar Consulta
-                        </a>
-                        <a href="#servicos" class="btn btn-secondary">
-                            <i class="fas fa-scale-balanced"></i> Ver Serviços
-                        </a>
-                    </div>
-                    <div class="hero-credential">
-                        <p><i class="fas fa-shield-alt"></i> <strong>Especialista em Prática Penal Avançada</strong> | OAB/SC 57.879</p>
-                    </div>
-                </div>
-                <div class="hero-image">
-                    <!-- Imagem representativa. Substitua por uma foto profissional. -->
-                    <div class="image-placeholder">
-                        <i class="fas fa-user-tie"></i>
-                        <p>Imagem Profissional</p>
-                    </div>
-                </div>
+    <!-- WhatsApp Flutuante Inteligente -->
+    <div id="smart-whatsapp" class="smart-whatsapp">
+        <div class="whatsapp-header">
+            <div class="whatsapp-avatar">
+                <div class="avatar-initials">RO</div>
             </div>
-        </section>
-
-        <!-- Seção Sobre -->
-        <section id="sobre" class="section about">
-            <div class="container">
-                <h2 class="section-title">Experiência que Faz a Diferença na Sua Defesa</h2>
-                <div class="about-container">
-                    <div class="about-content">
-                        <p>Com anos de atuação focada no <strong>Direito Penal</strong>, o Dr. Reginaldo Oliveira possui expertise para atuar em todas as fases do processo, desde a investigação preliminar até os recursos nos tribunais superiores.</p>
-                        <p>Sua abordagem combina conhecimento técnico profundo com uma análise estratégica personalizada para cada caso, visando sempre o melhor resultado para o cliente.</p>
-                        <ul class="about-list">
-                            <li><i class="fas fa-gavel"></i> <strong>Atuação em Tribunais:</strong> Experiência sólida perante o TJ/SC, TRF e STJ.</li>
-                            <li><i class="fas fa-file-contract"></i> <strong>Peças Jurídicas:</strong> Elaboração de defesas, recursos e pareceres técnicos.</li>
-                            <li><i class="fas fa-user-shield"></i> <strong>Foco no Cliente:</strong> Estratégia de defesa clara e comunicação transparente.</li>
-                            <li><i class="fas fa-medal"></i> <strong>Atualização Constante:</strong> Dedicação ao estudo das novidades legais e jurisprudenciais.</li>
-                        </ul>
-                    </div>
-                    <div class="about-badge">
-                        <div class="badge">
-                            <span class="badge-number">OAB/SC</span>
-                            <span class="badge-text">57.879</span>
-                            <span class="badge-subtext">Ativo e em pleno exercício</span>
-                        </div>
-                    </div>
+            <div class="whatsapp-info">
+                <span class="whatsapp-name">Dr. Reginaldo Oliveira</span>
+                <span class="whatsapp-status online">● Online</span>
+            </div>
+            <button class="whatsapp-minimize">−</button>
+        </div>
+        
+        <div class="whatsapp-body">
+            <div class="whatsapp-messages">
+                <div class="message-bot">
+                    <p>Olá, sou o Dr. Reginaldo Oliveira.</p>
+                    <p>Para melhor atendê-lo, selecione o tipo de assistência:</p>
+                </div>
+                
+                <div class="message-options">
+                    <button class="option-btn" data-option="consulta">
+                        <span>👨‍⚖️ Consulta Presencial</span>
+                    </button>
+                    <button class="option-btn" data-option="online">
+                        <span>💻 Consulta Online</span>
+                    </button>
+                    <button class="option-btn" data-option="analise">
+                        <span>📄 Análise de Documentos</span>
+                    </button>
+                    <button class="option-btn" data-option="emergencia">
+                        <span>🚨 Caso de Emergência</span>
+                    </button>
                 </div>
             </div>
-        </section>
+        </div>
+        
+        <div class="whatsapp-footer">
+            <a href="https://wa.me/5548999999999" class="whatsapp-link" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+                <span>ABRIR WHATSAPP</span>
+            </a>
+        </div>
+    </div>
 
-        <!-- Seção Serviços -->
-        <section id="servicos" class="section services">
-            <div class="container">
-                <h2 class="section-title">Serviços Jurídicos Especializados</h2>
-                <p class="section-subtitle">Atuação completa para sua defesa, em todas as instâncias.</p>
-                <div class="services-grid">
-                    <div class="service-card">
-                        <div class="service-icon">
-                            <i class="fas fa-users"></i>
-                        </div>
-                        <h3>Consultoria e Pareceres</h3>
-                        <p>Análise detalhada do seu caso com emissão de parecer jurídico sobre as possibilidades de defesa e estratégia a ser adotada.</p>
-                        <ul>
-                            <li>Análise de Processos</li>
-                            <li>Pareceres Técnicos</li>
-                            <li>Planejamento Estratégico</li>
-                        </ul>
-                    </div>
-                    <div class="service-card">
-                        <div class="service-icon">
-                            <i class="fas fa-pen-fancy"></i>
-                        </div>
-                        <h3>Confeccção de Peças</h3>
-                        <p>Elaboração de toda a documentação jurídica necessária, com argumentação sólida e fundamentação técnica.</p>
-                        <ul>
-                            <li>Defesas e Contrarrazões</li>
-                            <li>Recursos (Apelação, Especial, Extraordinário)</li>
-                            <li>Habeas Corpus e Mandados</li>
-                        </ul>
-                    </div>
-                    <div class="service-card">
-                        <div class="service-icon">
-                            <i class="fas fa-balance-scale-right"></i>
-                        </div>
-                        <h3>Atuação nos Tribunais</h3>
-                        <p>Defesa direta perante o juízo e tribunais, sustentação oral de recursos e acompanhamento de toda a tramitação processual.</p>
-                        <ul>
-                            <li>Audiências e Sustentações</li>
-                            <li>Julgamento de Recursos</li>
-                            <li>Acompanhamento Processual</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Seção CTA 1 -->
-        <section class="section cta">
-            <div class="container cta-container">
-                <h2>Sua situação exige uma resposta jurídica imediata</h2>
-                <p>Não espere o andamento do processo para buscar orientação. A primeira decisão é a mais importante.</p>
-                <a href="#contato" class="btn btn-primary btn-large">
-                    <i class="fas fa-phone-alt"></i> Fale Diretamente com o Advogado
-                </a>
-            </div>
-        </section>
-
-        <!-- Seção Como Atuo -->
-        <section id="processo" class="section process">
-            <div class="container">
-                <h2 class="section-title">Metodologia de Atuação</h2>
-                <div class="process-steps">
-                    <div class="step">
-                        <div class="step-number">1</div>
-                        <h3>Primeiro Contato & Análise</h3>
-                        <p>Conversa confidencial para entender os detalhes do caso e coletar todas as informações iniciais.</p>
-                    </div>
-                    <div class="step">
-                        <div class="step-number">2</div>
-                        <h3>Estratégia & Planejamento</h3>
-                        <p>Desenvolvimento de um plano de defesa personalizado, com objetivos claros e prazos definidos.</p>
-                    </div>
-                    <div class="step">
-                        <div class="step-number">3</div>
-                        <h3>Atuação & Defesa</h3>
-                        <p>Execução da estratégia com a elaboração de peças, acompanhamento processual e atuação em juízo.</p>
-                    </div>
-                    <div class="step">
-                        <div class="step-number">4</div>
-                        <h3>Resultado & Encerramento</h3>
-                        <p>Busca pelo melhor desfecho possível, com transparência sobre todas as decisões e andamentos.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Seção Contato -->
-        <section id="contato" class="section contact">
-            <div class="container">
-                <h2 class="section-title">Entre em Contato</h2>
-                <p class="section-subtitle">Agende uma consulta ou tire suas dúvidas. Toda comunicação é sigilosa.</p>
-                <div class="contact-container">
-                    <div class="contact-info">
-                        <h3><i class="fas fa-map-marker-alt"></i> Escritório Virtual</h3>
-                        <p>Atendimento em todo o estado de Santa Catarina e para processos em âmbito nacional.</p>
-                        <div class="contact-details">
-                            <p><strong><i class="fas fa-phone"></i> Telefone:</strong> (48) 99999-9999</p>
-                            <p><strong><i class="fas fa-envelope"></i> E-mail:</strong> contato@drreginaldo.com</p>
-                            <p><strong><i class="fas fa-clock"></i> Horário de Atendimento:</strong> Seg. a Sex., 9h às 18h</p>
-                        </div>
-                        <div class="contact-cta">
-                            <p><strong>Clique no botão verde para conversar agora pelo WhatsApp.</strong></p>
-                            <p>Resposta rápida para assuntos urgentes.</p>
-                        </div>
-                    </div>
-                    <form class="contact-form" id="contactForm">
-                        <div class="form-group">
-                            <label for="name">Nome Completo *</label>
-                            <input type="text" id="name" name="name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="phone">Telefone/WhatsApp *</label>
-                            <input type="tel" id="phone" name="phone" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">E-mail</label>
-                            <input type="email" id="email" name="email">
-                        </div>
-                        <div class="form-group">
-                            <label for="subject">Assunto *</label>
-                            <select id="subject" name="subject" required>
-                                <option value="" disabled selected>Selecione...</option>
-                                <option value="consulta">Agendar Consulta</option>
-                                <option value="parecer">Solicitar Parecer</option>
-                                <option value="peca">Confeccionar Peça</option>
-                                <option value="recurso">Acompanhar Recurso</option>
-                                <option value="outro">Outro</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Mensagem *</label>
-                            <textarea id="message" name="message" rows="4" required placeholder="Descreva brevemente sua situação..."></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-block">
-                            <i class="fas fa-paper-plane"></i> Enviar Mensagem
-                        </button>
-                        <p class="form-note"><i class="fas fa-lock"></i> Suas informações estão seguras. Sigilo profissional garantido.</p>
-                    </form>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-top">
+    <!-- Footer Premium -->
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-grid">
                 <div class="footer-col">
-                    <a href="#inicio" class="logo footer-logo">
+                    <div class="footer-logo">
+                        <span class="logo-symbol">§</span>
                         <div class="logo-text">
-                            <span class="logo-name">Dr. Reginaldo Oliveira</span>
-                            <span class="logo-oab">Advogado Criminalista</span>
+                            <span>STRATEGIC</span>
+                            <span>DEFENSE</span>
                         </div>
-                    </a>
-                    <p class="footer-about">Especialista em Prática Penal Avançada, dedicado à defesa estratégica e ética dos direitos de seus clientes.</p>
+                    </div>
+                    <div class="footer-oab">
+                        <span class="oab-badge">OAB/SC 57.879</span>
+                        <span class="oab-verified">✓ VERIFICADO</span>
+                    </div>
+                    <p class="footer-tagline">Defesa penal estratégica para casos de alta complexidade.</p>
                 </div>
+                
                 <div class="footer-col">
-                    <h4>Links Rápidos</h4>
-                    <ul>
-                        <li><a href="#inicio">Início</a></li>
-                        <li><a href="#sobre">Sobre</a></li>
-                        <li><a href="#servicos">Serviços</a></li>
-                        <li><a href="#contato">Contato</a></li>
+                    <h4 class="footer-title">ÁREAS DE ATUAÇÃO</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Crimes Contra o Patrimônio</a></li>
+                        <li><a href="#">Crimes Financeiros</a></li>
+                        <li><a href="#">Crimes Digitais</a></li>
+                        <li><a href="#">Crimes Contra a Administração</a></li>
+                        <li><a href="#">Crimes de Trânsito com Lesão</a></li>
                     </ul>
                 </div>
+                
                 <div class="footer-col">
-                    <h4>Contato</h4>
-                    <ul class="footer-contact">
-                        <li><i class="fas fa-id-card"></i> OAB/SC 57.879</li>
-                        <li><i class="fas fa-phone"></i> (48) 99999-9999</li>
-                        <li><i class="fas fa-envelope"></i> contato@drreginaldo.com</li>
-                    </ul>
-                    <div class="footer-social">
-                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <h4 class="footer-title">CONTATO ESTRATÉGICO</h4>
+                    <div class="footer-contact">
+                        <a href="tel:+5548999999999" class="contact-link">
+                            <i class="fas fa-phone-alt"></i>
+                            <span>(48) 99999-9999</span>
+                        </a>
+                        <a href="mailto:estrategia@drreginaldo.com" class="contact-link">
+                            <i class="fas fa-envelope"></i>
+                            <span>estrategia@drreginaldo.com</span>
+                        </a>
+                        <div class="contact-hours">
+                            <i class="fas fa-clock"></i>
+                            <span>Atendimento 24h para emergências</span>
+                        </div>
                     </div>
                 </div>
             </div>
+            
             <div class="footer-bottom">
-                <p>&copy; <span id="currentYear"></span> Dr. Reginaldo Oliveira - Advogado. Todos os direitos reservados.</p>
-                <p>Este site é um material informativo e não substitui a consulta com um advogado.</p>
+                <p class="copyright">© 2024 STRATEGIC DEFENSE. Todos os direitos reservados.</p>
+                <p class="disclaimer">Este site é material informativo. Consulte um advogado para análise específica do seu caso.</p>
             </div>
         </div>
     </footer>
 
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="particles-config.js"></script>
+    <script src="sound-effects.js"></script>
+    <script src="case-analyzer.js"></script>
     <script src="script.js"></script>
+    
+    <!-- Analytics -->
+    <script>
+        // Google Analytics
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-XXXXX-Y');
+    </script>
 </body>
 </html>
